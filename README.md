@@ -136,12 +136,6 @@ export default function SignupForm() {
 
 ---
 
-## Keywords
-
-voice input, react, accessibility, form, web speech api, interviewer mode, sign language, camera, a11y, guided form, modular, npm, react component
-
----
-
 ## Roadmap
 - [upcoming] Sign language input via camera
 - [upcoming] More customization options
