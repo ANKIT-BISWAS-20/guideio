@@ -1,0 +1,68 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+instruction.md
+
+# Ignore everything except the files needed for the npm package and documentation
+# Keep only:
+#   - dist/
+#   - package.json
+#   - README.md
+#   - LICENSE
+#   - src/ (for contributors)
+
+dist/
+!dist/**
+
+# Keep only the main package.json
+package.advancedform.json
+
+# Keep README and LICENSE
+
+# Do NOT ignore src/ so contributors can see and edit source code
+# Ignore everything else
+node_modules/
+.DS_Store
+*.log
+*.tmp
+.vscode/
+.idea/
+*.swp
+*.swo
+*.env
+*.local
+*.cache
+coverage/
+public/
+.storybook/
+*.config.js
+*.config.ts
+tailwind.config.js
+postcss.config.js
+vite.config.ts
+*.tsbuildinfo
+*.test.*
+*.spec.*
+index.html
+instruction.md

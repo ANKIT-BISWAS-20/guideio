@@ -1,0 +1,39 @@
+{
+  "name": "guideio",
+  "version": "0.0.5",
+  "description": "Highly accessible React form component with voice input and interviewer mode.",
+  "type": "module",
+  "main": "dist/AdvancedForm.js",
+  "module": "dist/AdvancedForm.js",
+  "types": "dist/AdvancedForm.d.ts",
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "voice input",
+    "react",
+    "accessibility",
+    "form",
+    "web speech api",
+    "interviewer mode",
+    "sign language",
+    "camera",
+    "a11y",
+    "guided form",
+    "modular",
+    "npm",
+    "react component"
+  ],
+  "peerDependencies": {
+    "react": ">=18.0.0",
+    "react-dom": ">=18.0.0"
+  },
+  "author": "Ankit Biswas",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  }
+}
