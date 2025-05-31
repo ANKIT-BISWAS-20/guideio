@@ -36,7 +36,7 @@
   "license": "MIT",
   "scripts": {
     "dev": "vite",
-    "build": "tsc -b && vite build",
+    "build": "tsc --declaration --emitDeclarationOnly --outDir dist && tsc --module ESNext --target ESNext --outDir dist src/AdvancedForm.tsx",
     "lint": "eslint .",
     "preview": "vite preview"
   }
