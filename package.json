@@ -1,6 +1,6 @@
 {
   "name": "guideio",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "Highly accessible React form component with voice input and interviewer mode.",
   "type": "module",
   "main": "dist/AdvancedForm.js",
