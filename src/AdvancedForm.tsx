@@ -22,7 +22,7 @@ const SpeechRecognition = (window as any).SpeechRecognition || (window as any).w
  * AdvancedForm wraps input fields to provide voice and sign language input support.
  * Voice input and sign language input are not yet implemented in this stub.
  */
-export const AdvancedForm: React.FC<AdvancedFormProps> = ({ children }) => {
+const AdvancedForm: React.FC<AdvancedFormProps> = ({ children }) => {
   const [listening, setListening] = React.useState(false);
   const [interviewing, setInterviewing] = React.useState(false);
   const recognitionRef = React.useRef<any>(null);
@@ -345,3 +345,5 @@ export const AdvancedForm: React.FC<AdvancedFormProps> = ({ children }) => {
     </form>
   );
 };
+
+export default AdvancedForm;

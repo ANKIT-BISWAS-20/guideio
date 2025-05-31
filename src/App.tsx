@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { AdvancedForm } from './AdvancedForm';
+import AdvancedForm from './AdvancedForm';
 
 export default function App() {
   const [form, setForm] = useState({
