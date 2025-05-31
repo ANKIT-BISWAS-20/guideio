@@ -54,15 +54,6 @@ node_modules/
 *.local
 *.cache
 coverage/
-public/
-.storybook/
-*.config.js
-*.config.ts
-tailwind.config.js
-postcss.config.js
-vite.config.ts
-*.tsbuildinfo
 *.test.*
 *.spec.*
-index.html
 instruction.md
