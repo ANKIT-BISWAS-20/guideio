@@ -1,6 +1,6 @@
 {
   "name": "guideio",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Highly accessible React form component with voice input and interviewer mode.",
   "type": "module",
   "main": "dist/AdvancedForm.js",
@@ -24,6 +24,10 @@
     "npm",
     "react component"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ANKIT-BISWAS-20/guideio"
+  },
   "peerDependencies": {
     "react": ">=18.0.0",
     "react-dom": ">=18.0.0"
