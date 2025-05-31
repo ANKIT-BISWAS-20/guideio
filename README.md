@@ -1,3 +1,8 @@
+<!-- Logo -->
+<p align="center">
+  <img src="https://i.ibb.co/XZRnhgjY/Screenshot-2025-05-31-155520.png" alt="GuideIO AdvancedForm Logo" width="180" />
+</p>
+
 # AdvancedForm React Component
 
 A highly accessible, modular React form component that enables each input field to accept both voice input (via the browser's Speech Recognition API) and, in the future, sign language input via camera. Includes an "interviewer" mode for guided, voice-driven form filling. Designed for ease of integration and maximum accessibility.
